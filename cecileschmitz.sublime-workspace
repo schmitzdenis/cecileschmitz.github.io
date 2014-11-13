@@ -147,9 +147,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 187.0,
 		"selected_items":
 		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
 			[
 				"sass",
 				"Set Syntax: Sass"
@@ -268,6 +272,12 @@
 	},
 	"file_history":
 	[
+		"/Users/denis/code/cecileschmitz/cecileschmitz/package.json",
+		"/Users/denis/code/cecileschmitz/cecileschmitz/scss/app.scss",
+		"/Users/denis/code/cecileschmitz/cecileschmitz/CNAME",
+		"/Users/denis/code/cecileschmitz/cecileschmitz/scss/_settings.scss",
+		"/Users/denis/code/cecileschmitz/cecileschmitz/Gruntfile.js",
+		"/Users/denis/code/cecileschmitz/cecileschmitz/index.html",
 		"/Users/denis/code/seaters/seaters-webapp/app/views/splash.html",
 		"/Users/denis/code/seaters/seaters-webapp/app/styles/imports/_splash.scss",
 		"/Users/denis/code/seaters/seaters-webapp/app/styles/main.scss",
@@ -389,13 +399,7 @@
 		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/api_queue.js",
 		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/request_interceptor.js",
 		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/user.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/queue.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/session.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/api_entry.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/auth_events.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/auth.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/api.js",
-		"/Users/denis/code/seaters/seaters-webapp/app/views/confirm_code.html"
+		"/Users/denis/code/seaters/seaters-webapp/app/scripts/services/queue.js"
 	],
 	"find":
 	{
@@ -685,6 +689,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 210.0,
+	"side_bar_width": 274.0,
 	"status_bar_visible": true
 }
