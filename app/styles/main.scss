@@ -1,15 +1,32 @@
 // bower:scss
 // endbower
 
-.logo{
-  background: url(images/logo.png);
-  height:100px;
-  width:100px;
-}
 body {
   background: #fafafa;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #333;
+}
+
+.logo{
+  background: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin-top:2em;
+  height:86px;
+  width:145px;
+}
+
+.intro{
+  background: url(../images/rachel.jpeg);
+  background-size: cover;
+  min-width:100%;
+  h1,h2,p{
+    min-width:100%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.34);
+  }
+
 }
 
 .hero-unit {
