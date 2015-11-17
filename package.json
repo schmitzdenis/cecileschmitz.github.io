@@ -1,16 +1,21 @@
 {
   "name": "cecileschmitz.be",
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.0",
-    "require-dir": "^0.3.0"
+    "require-dir": "^0.3.0",
+    "wiredep": "^2.2.2",
+    "bower": "^1.6.5"
   },
   "repository": "https://github.com/schmitzdenis/cecileschmitz.github.io.git",
+  "license": "ISC",
   "engines": {
     "node": ">=4.4.2"
   },
   "dependencies": {
-    "wiredep": "^2.2.2"
   }
 }
