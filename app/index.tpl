@@ -57,9 +57,18 @@
 
     <div class="row">
       <div class="large-8 columns">
-        <pre>
-          Cécile SCHMITZ Kinésithérapeute GSM : 0485/82.15.15 Tél : 081/31.36.19 Email : cecileschmitz@gmail.com
-        </pre>
+        <p>
+          Cécile SCHMITZ Kinésithérapeute
+        </p>
+        <p>
+          GSM : 0485/82.15.15
+        </p>
+        <p>
+          Tél : 081/31.36.19
+        </p>
+        <p>
+          Email : cecileschmitz@gmail.com
+        </p>
       </div>
       <div class="large-4 columns">
         <div id="map_canvas"></div>
