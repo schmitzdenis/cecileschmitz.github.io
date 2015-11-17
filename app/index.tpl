@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- bower:css -->
+
     <!-- endbower -->
     <link rel="stylesheet" href="styles/main.css">
   </head>
@@ -76,7 +77,7 @@
         b[l].l = +new Date;
         e = o.createElement(i);
         r = o.getElementsByTagName(i)[0];
-        e.src = 'http//www.google-analytics.com/analytics.js';
+        e.src = '//www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e, r)
       }(window, document, 'script', 'ga'));
       ga('create', 'UA-XXXXX-X');
@@ -84,12 +85,7 @@
     </script>
 
     <!-- bower:js -->
-    <script src="../bower_components/modernizr/modernizr.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="../bower_components/fastclick/lib/fastclick.js"></script>
-    <script src="../bower_components/jquery.cookie/jquery.cookie.js"></script>
-    <script src="../bower_components/jquery-placeholder/jquery.placeholder.js"></script>
-    <script src="../bower_components/foundation/js/foundation.js"></script>
+
     <!-- endbower -->
   </body>
 </html>
