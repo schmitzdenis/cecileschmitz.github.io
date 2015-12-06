@@ -2,6 +2,6 @@
   "name": "foundation-compass-app",
   "private": true,
   "dependencies": {
-    "foundation": "~5.5.3"
+    "foundation-sites": "~6.0.5"
   }
 }
