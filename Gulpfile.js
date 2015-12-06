@@ -4,6 +4,7 @@ var reqDir = require('require-dir');
 reqDir('./gulp'); // define tasks there
 
 gulp.paths = {
+  bower : 'bower_components',
   index : 'app/index.tpl',
   styles : 'app/styles/main.scss',
   scripts: ['app/scripts/**/*.js'],
@@ -13,4 +14,6 @@ gulp.paths = {
   cname:'CNAME'
 };
 
-gulp.task('default',['styles','deps','copy']);
+
+gulp.task('build',['styles','deps','copy']);
+gulp.task('default',['styles:watch','html:watch','copy','connect']);
