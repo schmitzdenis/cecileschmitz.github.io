@@ -17,7 +17,7 @@
   "repository": "https://github.com/schmitzdenis/cecileschmitz.github.io.git",
   "license": "ISC",
   "engines": {
-    "node": ">=4.4.2"
+    "node": "^4.4.0"
   },
   "dependencies": {}
 }
