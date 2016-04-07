@@ -80,7 +80,7 @@
         <p>du lundi au vendredi de 9 à 17h sauf le mercredi après-midi et possibilité en soirée le lundi et le vendredi Flexibilité d’horaire sur demande</p>
 
 
-        <h2>CONTACT</h2>
+        <h2>Contact</h2>
         <h4>Cécile Schmitz</h4>
         <p>+32 (0) 485 82 15 15</p>
         <p>cecileschmitz@gmail.com</p>
