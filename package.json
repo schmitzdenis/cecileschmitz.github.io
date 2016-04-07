@@ -4,20 +4,19 @@
     "postinstall": "bower install"
   },
   "devDependencies": {
-    "bower": "^1.6.9",
-    "gulp": "^3.9.0",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
-    "gulp-connect": "^2.2.0",
+    "gulp-connect": "^2.3.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.0",
+    "gulp-sass": "^2.2.0",
     "require-dir": "^0.3.0",
-    "surge": "^0.17.3",
+    "surge": "^0.17.7",
     "wiredep": "^2.2.2"
   },
   "repository": "https://github.com/schmitzdenis/cecileschmitz.github.io.git",
   "license": "ISC",
   "engines": {
     "node": "^4.4.0"
-  },
-  "dependencies": {}
+  }
 }

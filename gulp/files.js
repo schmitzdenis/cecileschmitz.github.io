@@ -14,6 +14,10 @@ gulp.task('scripts', function() {
 gulp.task('files', function() {
  gulp.src(gulp.paths.favicon)
   .pipe(gulp.dest(gulp.paths.dist));
+
+ gulp.src(gulp.paths.bower + '/**/*')
+   .pipe( gulp.dest(gulp.paths.dist + '/' + gulp.paths.bower) );
+
   return gulp.src(gulp.paths.cname)
   .pipe(gulp.dest(gulp.paths.dist));
 });

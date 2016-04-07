@@ -22,36 +22,27 @@
     <!--[if lt IE 10]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-    <div class="contain-to-grid sticky">
-      <nav class="top-bar"
-        data-topbar
-        data-options="sticky_on: large">
-        <ul class="title-area">
-          <li class="name">
-            Kinésiethérapie
-          </li>
-          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon">
-            <a href="#">
-              <span></span>
-            </a>
-          </li>
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Cécile Schmitz</li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Tarrifs et Horraires</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-
-        <section class="top-bar-section">
-          <!-- Left Nav Section -->
-          <ul class="right">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Méthode</a></li>
-          </ul>
-      </nav>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#">Facebook Page</a></li>
+          <li><a href="#">Google+</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
     </div>
-    </section>
 
-    <div class="row intro">
-      <div class="large-2 columns logo"></div>
-      <div class="large-10 columns">
+    <div class="row">
+      <div class="logo"></div>
+      <div>
         <h1>Cécile Schmitz, kinésithérapeute</h1>
         <h2>Diplômée en 2005</h2>
         <h3>L’APPROCHE GLOBALE</h3>
@@ -62,8 +53,6 @@
           libération du mouvement, et une optimalisassions de votre force musculaire. Dans un esprit de collaboration avec le patient, mon travail consiste à définir l'origine du problème,
           comprendre l'escalade de tension musculaire qui a abouti à la symptomatologie et enfin à ré-harmoniser le tonus musculaire de façon globale. Ma philosophie est d'aider la
           personne à mieux se connaître en vue d'une plus grande autonomie dans la gestion des tensions.</p>
-
-
 
         <h3>LES TECHNIQUES</h3>
         <p>
@@ -77,16 +66,6 @@
             target="_blank">k-taping.eu</a>
         </p>
 
-        <div class="row">
-          <h2>CONTACT</h2>
-          <h3>Cécile Schmitz</h3>
-          <p>+32 (0) 485 82 15 15</p>
-          <p>cecileschmitz@gmail.com</p>
-          <div class="large-4 columns">
-            <div id="map_canvas"></div>
-          </div>
-        </div>
-
 
         <h2>PRICES table </h2>
 
@@ -99,6 +78,12 @@
 
         <h2>Heures d'ouverture</h2>
         <p>du lundi au vendredi de 9 à 17h sauf le mercredi après-midi et possibilité en soirée le lundi et le vendredi Flexibilité d’horaire sur demande</p>
+
+
+        <h2>CONTACT</h2>
+        <h4>Cécile Schmitz</h4>
+        <p>+32 (0) 485 82 15 15</p>
+        <p>cecileschmitz@gmail.com</p>
 
       </div>
     </div>

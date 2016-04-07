@@ -1,6 +1,6 @@
 'use strict';
 var gulp = require('gulp');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var wiredep = require('wiredep').stream;
 var connect = require('gulp-connect');
 
@@ -13,6 +13,5 @@ gulp.task('deps', function() {
 });
 
 gulp.task('html:watch', function () {
-  console.log();
   gulp.watch(['../bower.json', gulp.paths.index], ['deps']);
 });

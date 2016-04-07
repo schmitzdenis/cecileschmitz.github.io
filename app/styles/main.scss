@@ -1,7 +1,9 @@
-@import "foundation-sites/scss/foundation.scss";
+@import "foundation.scss";
 @import "_settings.scss";
 
 @include foundation-global-styles;
+@include foundation-top-bar;
+@include foundation-menu;
 @include foundation-grid;
 @include foundation-typography;
 @include foundation-button;
@@ -14,5 +16,5 @@
   background-position: 50% 50%;
   margin-top:2em;
   height:86px;
-  width:145px;
+  width:150px;
 }
