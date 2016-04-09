@@ -23,3 +23,8 @@ gulp.task('files', function() {
 });
 
 gulp.task('copy',['images','scripts','files']);
+
+
+gulp.task('file:watch', function () {
+  gulp.watch('app//**/*', ['copy']);
+});

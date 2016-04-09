@@ -16,4 +16,4 @@ gulp.paths = {
 
 
 gulp.task('build',['styles','deps','copy']);
-gulp.task('default',['build','styles:watch','html:watch','connect']);
+gulp.task('default',['build','styles:watch','html:watch','file:watch','connect']);
