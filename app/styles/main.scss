@@ -1,24 +1,31 @@
 @import "foundation.scss";
 @import "_settings.scss";
 
-@include foundation-global-styles;
-@include foundation-top-bar;
-@include foundation-menu;
-@include foundation-grid;
-@include foundation-typography;
-@include foundation-button;
-@include foundation-forms;
-@include foundation-table;
+@include foundation-everything;
+
+// @include foundation-global-styles;
+// @include foundation-top-bar;
+// @include foundation-menu;
+// @include foundation-title-bar;
+// @include foundation-menu-icon;
+// @include foundation-grid;
+// @include foundation-typography;
+// @include foundation-button;
+// @include foundation-forms;
+// @include foundation-table;
 
 .logo{
   background: url(../images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height:50px;
+  height:45px;
   width:100px;
 }
 
+a.active{
+  text-decoration: underline;
+}
 
 .top-bg{
   background:url('../images/side-background.jpg');
@@ -32,9 +39,12 @@
   color:rgba(255, 255, 255, 0.75);
 }
 
+section[id=contact]{
+  padding-bottom: 200px;
+}
+
 table.prices{
   th,td{
     text-align: center;
   }
-
 }
