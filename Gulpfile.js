@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var reqDir = require('require-dir');
 
+
 reqDir('./gulp'); // define tasks there
 
 gulp.paths = {
-  bower : 'bower_components',
+  bower : 'bower',
   index : 'app/index.tpl',
   styles : 'app/styles/main.scss',
   scripts: ['app/scripts/**/*.js'],
