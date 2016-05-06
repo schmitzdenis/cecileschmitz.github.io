@@ -1,9 +1,6 @@
 @import "foundation.scss";
 @import "_settings.scss";
-
-@include foundation-everything;
-
-// @include foundation-global-styles;
+@include foundation-everything; // @include foundation-global-styles;
 // @include foundation-top-bar;
 // @include foundation-menu;
 // @include foundation-title-bar;
@@ -13,38 +10,60 @@
 // @include foundation-button;
 // @include foundation-forms;
 // @include foundation-table;
-
-.logo{
-  background: url(../images/logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  height:45px;
-  width:100px;
+.logo {
+  // background: url(../images/logo.png);
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // background-position: 50% 50%;
+  // height:30px;
+  // width:100px;
 }
-
-a.active{
+a.active {
   text-decoration: underline;
 }
-
-.top-bg{
-  background:url('../images/side-background.jpg');
+.top-bg {
+  background: url('../images/side-background.jpg');
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
   height: 250px;
   margin-bottom: 40px;
-  padding-top: 70px;
+  padding-top: 175px;
   padding-right: 40px;
-  color:rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
-
-section[id=contact]{
-  padding-bottom: 200px;
+section[id=contact] {
+  padding-bottom: 0;
 }
-
-table.prices{
-  th,td{
+section.footer {
+  padding: 1rem;
+  background-color: #539D98;
+  background-image: linear-gradient( 80deg, #6CA59E, #226961 );
+  text-align: center;
+  color: white;
+}
+section.footer {
+  ul.informations {
+    // text-align: center;
+    li {
+      display: block;
+      // padding-right: 2.5rem;
+      // padding-left: 2.5rem;
+    }
+  }
+  ul.menu>li a {
+    color: white;
+  }
+}
+section.footer ul.menu h2 {
+  padding-top: 30px;
+}
+h2.first-title {
+  padding-top: inherit;
+}
+table.prices {
+  td,
+  th {
     text-align: center;
   }
 }
