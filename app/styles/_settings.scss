@@ -396,7 +396,8 @@ $meter-fill-bad: $alert-color;
 // --------------
 
 $offcanvas-size: 250px;
-$offcanvas-background: $light-gray;
+// $offcanvas-background: $light-gray;
+$offcanvas-background: $white;
 $offcanvas-zindex: -1;
 $offcanvas-transition-length: 0.5s;
 $offcanvas-transition-timing: ease;
@@ -533,12 +534,15 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $black;
-$titlebar-color: $white;
+$titlebar-background: $white;
+$titlebar-color: $black;
+// $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
-$titlebar-icon-color-hover: $medium-gray;
+//$titlebar-icon-color: $white;
+$titlebar-icon-color: map-get($foundation-palette, primary);
+// $titlebar-icon-color-hover: $medium-gray;
+$titlebar-icon-color-hover: lighten($titlebar-icon-color,25%);
 $titlebar-icon-spacing: 0.25rem;
 
 // 35. Tooltip
