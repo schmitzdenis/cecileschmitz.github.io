@@ -11,12 +11,14 @@
 // @include foundation-forms;
 // @include foundation-table;
 .logo {
-  // background: url(../images/logo.png);
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  // background-position: 50% 50%;
-  // height:30px;
-  // width:100px;
+  position: absolute;
+  background: url(../images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top :14px;
+  height:28px;
+  width:40px;
 }
 a.active {
   text-decoration: underline;

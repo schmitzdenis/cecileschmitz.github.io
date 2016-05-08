@@ -63,22 +63,27 @@
                 class="sticky">
               <div class="top-bar"
                   id="topnavId">
+
+                <div class="top-bar-title">
+                  <div class="menu-text hide-for-medium">
+                    <!-- data-responsive-toggle="responsive-menu" -->
+                      <button class="menu-icon"
+                          type="button"
+                          data-toggle="offCanvas">
+                      </button>
+                    </div>
+                    <div class="menu-text show-for-medium">
+                        <div class="logo"></div>
+                    </div>
+                </div>
+
+
+
                 <div class="top-bar-left">
 
                   <nav data-magellan
                       data-bar-offset="45">
-                    <ul class="menu hide-for-large">
-                      <li class="menu-text">
-                        <button class="menu-icon"
-                            type="button"
-                            data-toggle="offCanvas">
-                        </button>
-                      </li>
-                    </ul>
-                    <ul class="menu show-for-large">
-                      <li class="menu-text">
-                        <div class="logo"></div>
-                      </li>
+                    <ul class="menu show-for-medium">
                       <li>
                         <a href="#services">Services</a>
                       </li>
@@ -169,7 +174,7 @@
             <div class="column large-8 row">
               <h2>Tarifs</h2>
 
-              <div class="columns large-3">
+              <div class="columns large-4">
                 <table class="prices">
                   <thead>
                     <tr>
@@ -194,14 +199,15 @@
                 </table>
               </div>
 
-              <div class="columns large-9">
+              <div class="columns large-8">
                 <p>
                   Pour les traitements en chaînes musculaires et articulaires, je pratique en général des séances de 60 minutes. Ceci est nécessaire pour pouvoir offrir un travail qui tient compte de
                   l'équilibre musculo-articulaire de la personne dans son ensemble.
                   <br> Pour cette raison, je suis non-conventionnée (12,28 € de remboursement par séance au lieu de 16,37 €).
                 </p>
                 <p>
-                  Cependant, je prends aussi en charge des demandes de traitements en kinésithérapie “classique” ( horaire et tarif suivant les recommandations de l'INAMI, soit 25euros pour 30min de traitement ). Remboursement,voir thérapeute non conventionné.
+                  Cependant, je prends aussi en charge des demandes de traitements en kinésithérapie “classique” ( horaire et tarif suivant les recommandations de l'INAMI, soit 25euros pour 30min de
+                  traitement ). Remboursement,voir thérapeute non conventionné.
                 </p>
               </div>
 
@@ -210,7 +216,7 @@
               <h2>Heures d'ouverture</h2>
             </div>
             <div class="row columns large-8">
-              <div class="columns large-3">
+              <div class="columns large-4">
                 <table>
                   <tbody>
                     <tr>
@@ -236,7 +242,7 @@
                   </tbody>
                 </table>
               </div>
-              <div class="columns large-9">
+              <div class="columns large-8">
                 <p>Possibilité en soirée le lundi et le vendredi Flexibilité d’horaire sur demande</p>
               </div>
             </div>
@@ -247,40 +253,40 @@
               data-magellan-target="contact">
             <div class="row columns large-8">
               <h2>Contact</h2>
-<div class="menu-centered">
-              <ul class="menu informations">
-                <li>Cécile Schmitz</li>
-                <li>+32 (0) 485 82 15 15</li>
-                <li>cecileschmitz@gmail.com</li>
-              </ul>
-</div>
+              <div class="menu-centered">
+                <ul class="menu informations">
+                  <li>Cécile Schmitz</li>
+                  <li>+32 (0) 485 82 15 15</li>
+                  <li>cecileschmitz@gmail.com</li>
+                </ul>
+              </div>
 
 
-<div class="menu-centered">
-              <ul class="menu">
-                <li>
-                  <a href="https://www.facebook.com/C%C3%A9cile-Schmitz-Kin%C3%A9sith%C3%A9rapeute-483738601731963"
-                      target="_blank"
-                      title="Facebook Page">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://plus.google.com/100766886998929105289/about"
-                      target="_blank"
-                      title="Google+">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:cecileschmitz@gmail.com"
-                      target="_blank"
-                      title="Email">
-                    <i class="fa fa-envelope-o"></i>
-                  </a>
-                </li>
-              </ul>
-</div>
+              <div class="menu-centered">
+                <ul class="menu">
+                  <li>
+                    <a href="https://www.facebook.com/C%C3%A9cile-Schmitz-Kin%C3%A9sith%C3%A9rapeute-483738601731963"
+                        target="_blank"
+                        title="Facebook Page">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://plus.google.com/100766886998929105289/about"
+                        target="_blank"
+                        title="Google+">
+                      <i class="fa fa-google-plus"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:cecileschmitz@gmail.com"
+                        target="_blank"
+                        title="Email">
+                      <i class="fa fa-envelope-o"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
           </div>
