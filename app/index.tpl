@@ -33,9 +33,12 @@
     <div class="large reveal"
         id="navModal"
         data-reveal
-        data-overlay="false">
+        data-overlay="true"
+        data-animation-in="slide-in-left fast ease">
 
       <!-- Menu -->
+      <nav data-magellan
+          data-bar-offset="45">
       <ul class="vertical menu menu-centered">
         <li>
           <a href="#services">Services</a>
@@ -47,11 +50,12 @@
           <a href="#contact">Contact</a>
         </li>
       </ul>
+    </nav>
 
       <button class="close-button"
-          data-close
           aria-label="Close modal"
-          type="button">
+          type="button"
+          data-close>
         <span aria-hidden="true">&times;</span>
       </button>
     </div>

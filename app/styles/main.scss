@@ -1,5 +1,6 @@
 @import "foundation.scss";
 @import "_settings.scss";
+@import "motion-ui/src/motion-ui.scss";
 @include foundation-everything; // @include foundation-global-styles;
 // @include foundation-top-bar;
 // @include foundation-menu;
@@ -12,13 +13,13 @@
 // @include foundation-table;
 .logo {
   position: absolute;
-  background: url(../images/logo.png);
+  background: url("../images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  top :14px;
-  height:28px;
-  width:40px;
+  top: 14px;
+  height: 28px;
+  width: 40px;
 }
 a.active {
   text-decoration: underline;
@@ -46,25 +47,29 @@ section.footer {
 }
 section.footer {
   ul.informations {
-    // text-align: center;
     li {
       display: block;
-      // padding-right: 2.5rem;
-      // padding-left: 2.5rem;
     }
   }
-  ul.menu>li a {
+  ul.menu > li a {
     color: white;
   }
 }
 section.footer ul.menu h2 {
   padding-top: 30px;
 }
+.reveal ul {
+  padding-top: 8vh;
+  li {
+    font-size: 1.5rem;
+  }
+}
 h2.first-title {
   padding-top: inherit;
 }
 table {
-  td,thead td {
+  td,
+  thead td {
     text-align: center;
   }
 }

@@ -17,6 +17,7 @@
         href="favicon.ico">
 
     <!-- bower:css -->
+    <link rel="stylesheet" href="../bower/motion-ui/dist/motion-ui.css" />
     <!-- endbower -->
     <link rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
@@ -32,9 +33,12 @@
     <div class="large reveal"
         id="navModal"
         data-reveal
-        data-overlay="false">
+        data-overlay="true"
+        data-animation-in="slide-in-left fast ease">
 
       <!-- Menu -->
+      <nav data-magellan
+          data-bar-offset="45">
       <ul class="vertical menu menu-centered">
         <li>
           <a href="#services">Services</a>
@@ -46,11 +50,12 @@
           <a href="#contact">Contact</a>
         </li>
       </ul>
+    </nav>
 
       <button class="close-button"
-          data-close
           aria-label="Close modal"
-          type="button">
+          type="button"
+          data-close>
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -328,6 +333,7 @@
     <script src="../bower/jquery/dist/jquery.js"></script>
     <script src="../bower/what-input/what-input.js"></script>
     <script src="../bower/foundation-sites/dist/foundation.js"></script>
+    <script src="../bower/motion-ui/dist/motion-ui.js"></script>
     <!-- endbower -->
     <script src="main.js"></script>
   </body>
