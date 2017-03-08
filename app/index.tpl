@@ -143,7 +143,7 @@
       <div class="column large-8 row">
 
         <div>
-          <h2 class="first-title">Kinésithérapeute, diplômée en 2005</h2>
+          <h2 class="first-title">Kinésithérapeute d’expérience, spécialisée en chaînes musculaires et articulaires</h2>
           <p>
             Dans le cadre de mon travail, je reçois des personnes de tout âge présentant des troubles divers. Sur base d'un bilan détaillé et d'une anamnèse, je vous propose un traitement personnalisé
             qui tient compte de votre personne dans son unité physique, psychique et émotionnelle. Adultes, enfants, adolescents, problématiques aiguës ou chroniques, affections musculo-articulaires,
