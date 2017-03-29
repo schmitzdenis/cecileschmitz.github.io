@@ -145,12 +145,11 @@
         <div>
           <h2 class="first-title">Kinésithérapeute d’expérience, spécialisée en chaînes musculaires et articulaires</h2>
           <p>
-            Dans le cadre de mon travail, je reçois des personnes de tout âge présentant des troubles divers. Sur base d'un bilan détaillé et d'une anamnèse, je vous propose un traitement personnalisé
-            qui tient compte de votre personne dans son unité physique, psychique et émotionnelle. Adultes, enfants, adolescents, problématiques aiguës ou chroniques, affections musculo-articulaires,
-            troubles fonctionnels ou de développement, visée thérapeutique ou préventive, vous trouverez dans mon travail un accompagnement vers une plus grande sécurité intérieure,
-            une libération du mouvement, et une optimalisassion de votre force musculaire. Dans un esprit de collaboration avec le patient, mon travail consiste à définir l'origine
-            du problème, comprendre l'escalade de tensions musculaires qui a abouti à la symptomatologie et enfin à ré-harmoniser le tonus musculaire de façon globale. Ma philosophie
-            est d'aider la personne à mieux se connaître en vue d'une plus grande autonomie dans la gestion des tensions.</p>
+            Votre bien être est au centre de ma pratique et mon objectif est d’améliorer votre tonus musculaire.
+J’utilise une méthode globale pour vous soigner et prévenir la réapparition des affections musculo-articulaires. Sur la base d’un bilan détaillé, je vous propose un traitement  adapté à vos besoins. Avec votre collaboration, j’identifie l’escalade des tensions musculaires et articulaires et je ré-harmonise le tonus musculaire de façon globale. Mon objectif est de vous rendre une plus grande liberté de mouvement et d’optimiser votre force musculaire. De plus, je vous aide à mieux reconnaître vos tensions et vous redonner une plus grande autonomie.
+Je vous propose également un massage de détente qui vous procurera  un bien être complet.
+J’accueille tous les groupes d’âge, des enfants aux personnes âgées.
+</p>
 
           <h2>Les techniques</h2>
           <h4>Chaînes musculaires et articulaires - Méthode <span title="Godelieve Denys Struyf"><a href="http://www.methode-gds.com/methode-gds/la-methode-gds.html">G.D.S</a></span></h4>
