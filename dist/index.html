@@ -140,9 +140,9 @@
     <section id="services"
         data-magellan-target="services">
 
-      <div class="column large-8 row">
+      <div class="row">
 
-        <div>
+        <div class="column large-8">
           <h2 class="first-title">Kinésithérapeute d’expérience, spécialisée en chaînes musculaires et articulaires</h2>
           <p>
             Votre bien être est au centre de ma pratique et mon objectif est d’améliorer votre tonus musculaire.
